@@ -1,4 +1,4 @@
-const Tamagotchi = require("./tamagotchi");
+const Tamagotchi = require("../tamagotchi");
 
 class Trainer {
   constructor(trainerName, pokeObject) {
