@@ -13,7 +13,9 @@ A practice assessment for Mod 1 students working with class to class interaction
 npm test src/tamagotchi-test.js
 ```
 
-Familiarize yourself with the existing code. Then, start passing the `trainer` tests:
+Familiarize yourself with the existing code. 
+Start with the `tamagotchi` tests
+THEN, move to the `trainer` tests
 
 ```
 npm test src/trainer-test.js
