@@ -61,8 +61,8 @@ describe("Trainer", function () {
     dawn.catchTamagotchi("Snorlax", 2);
 
     assert.instanceOf(dawn.tamagotchi, Tamagotchi);
-    assert.equal(dawn.Tamagotchi.name, "Snorlax");
-    assert.equal(dawn.Tamagotchi.age, 2);
+    assert.equal(dawn.tamagotchi.name, "Snorlax");
+    assert.equal(dawn.tamagotchi.age, 2);
   });
 
   it.skip("should not be able to catch a Tamagotchi if they already have one", function () {
