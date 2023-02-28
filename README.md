@@ -16,5 +16,5 @@ npm test src/tamagotchi-test.js
 Familiarize yourself with the existing code. Then, start passing the `trainer` tests:
 
 ```
-npm test src/trainererson-test.js
+npm test src/trainer-test.js
 ```
