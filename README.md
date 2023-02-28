@@ -1,4 +1,4 @@
-# mod1-c2c-practice
+# Tamagotchi + Trainer Suite 
 A practice assessment for Mod 1 students working with class to class interaction.
 
 ## Set up:
