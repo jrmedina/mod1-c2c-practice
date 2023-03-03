@@ -6,8 +6,8 @@ class Tamagotchi {
     this.hungry = true;
   }
   eat() {
-    this.hungry = false;
-    return "I refuse to eat.";
+    this.hungry = false
+    return "I refuse to eat."
   }
   attack() {
     if (this.power >= 4) {
