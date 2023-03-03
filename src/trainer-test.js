@@ -13,9 +13,9 @@ describe("Trainer", function () {
   });
 
   it.skip("should be able to have no Tamagotchi", function () {
-    var dawn = new Trainer("Dawn");
+    var brock = new Trainer("Brock");
 
-    assert.equal(dawn.Tamagotchi, undefined);
+    assert.equal(brock.Tamagotchi, undefined);
   });
 
   it.skip("should feed Tamagotchi", function () {
@@ -56,13 +56,13 @@ describe("Trainer", function () {
   });
 
   it.skip("should be able to catch a Tamagotchi if they don't already have one", function () {
-    var dawn = new Trainer("Dawn");
+    var brock = new Trainer("Brock");
 
-    dawn.catchTamagotchi("Snorlax", 2);
+    brock.catchTamagotchi("Snorlax", 2);
 
-    assert.instanceOf(dawn.tamagotchi, Tamagotchi);
-    assert.equal(dawn.tamagotchi.name, "Snorlax");
-    assert.equal(dawn.tamagotchi.age, 2);
+    assert.instanceOf(brock.tamagotchi, Tamagotchi);
+    assert.equal(brock.tamagotchi.name, "Snorlax");
+    assert.equal(brock.tamagotchi.age, 2);
   });
 
   it.skip("should not be able to catch a Tamagotchi if they already have one", function () {
