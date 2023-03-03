@@ -21,7 +21,7 @@ class Tamagotchi {
     if (this.power === 10) {
       return "I have too much energy to rest. I'm going to chew something instead.";
     }
-    this.power = this.power + 1;
+    this.power = this.power + 1
   }
 }
 
